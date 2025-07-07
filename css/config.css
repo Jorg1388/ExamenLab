@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    margin: auto;
+    border-radius: 20px;
+}
+
+html {
+    font-size: 10px;
+    font-family: monospace;
+}
+
+  @media (min-width: 768px) {
+    .html {
+      flex: 1 1 calc(50% - 10px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
